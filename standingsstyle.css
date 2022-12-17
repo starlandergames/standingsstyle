@@ -1,0 +1,207 @@
+body{
+  margin: 100;
+  padding: 0;
+  font-family: Verdana;
+}
+
+/*  Flora Conference */
+table thead[data-conference="flora"] th{
+  width: 100px;
+  margin: 10;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  background-image: linear-gradient(to bottom, #14e166, #08c65d, #03ac53, #039349, #067a3f);
+}
+
+/*  Fauna Conference */
+table thead[data-conference="fauna"] th{
+  width: 100px;
+  margin: 10;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  background-image: linear-gradient(to bottom, #cc0000, #ae0a03, #910e04, #761003, #5b0f00);
+}
+
+/* Controls text style of teams for both conferences */
+td,tr{
+  width: 100px;
+  margin: 10;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+table tr[data-conference="flora"] td:first-child+td, table tr[data-conference="flora"] td:first-child+td+td, table tr[data-conference="flora"] td:first-child+td+td+td{
+  color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #067a3f, #06723b, #056a37, #056233, #055a2f);
+}
+
+table tr[data-conference="fauna"] td:first-child+td, table tr[data-conference="fauna"] td:first-child+td+td, table tr[data-conference="fauna"] td:first-child+td+td+td{
+  color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #5b0f00, #540e01, #4d0d01, #460c01, #3f0b00);
+}
+
+/*  1 Sunflower🌻 */
+table tr[data-team="0"] td:first-child{
+  background-image: linear-gradient(to bottom, #274e13, #244912, #214311, #1f3e0f, #1c390e);
+  color: #FFFFFF;
+}
+/*  2 Rose🌹 */
+table tr[data-team="1"] td:first-child{
+  background-color: #991010;
+  color: #FFFFFF;
+}
+/*  3 Mallow🌺 */
+table tr[data-team="2"] td:first-child{
+  background-color: #FFFFFF;
+  color: #ff75c4;
+}
+/*  4 Wheat🌾 */
+table tr[data-team="3"] td:first-child{
+  background-color: #fffc59;
+  color: #5ed357;
+}
+/*  5 Tulip🌷 */
+table tr[data-team="4"] td:first-child{
+  background-image: linear-gradient(to bottom, #ea9999, #d88e8e, #c68383, #b57979, #a46e6e);
+  color: #FFFFFF;
+}
+/*  6 Pine🎄 */
+table tr[data-team="5"] td:first-child{
+  background-color: #a2c4c9;
+  color: #38761d;
+}
+/*  7 Palm🌴 */
+table tr[data-team="6"] td:first-child{
+  background-image: linear-gradient(to bottom, #baf5ff, #ace3ed, #9fd2da, #91c1c9, #84b0b7);
+  color: #88533b;
+}
+/*  8 Cactus🌵 */
+table tr[data-team="7"] td:first-child{
+  background-image: linear-gradient(to bottom, #f1c232, #e4b72f, #d6ac2b, #c9a228, #bc9725);
+  color: #FFFFFF;
+
+}
+/*  9 Shroom🍄 */
+table tr[data-team="8"] td:first-child{
+  background-image: linear-gradient(to bottom, #ff4c4c, #f44949, #e94545, #de4242, #d33f3f);
+  color: #990000;
+}
+/*  10 Maple🍁 */
+table tr[data-team="9"] td:first-child{
+  background-image: linear-gradient(to bottom, #ffffff, #ececec, #d8d8d8, #c6c6c6, #b3b3b3);
+  color: #85200c;
+}
+/*  11 Oak🌳 */
+table tr[data-team="10"] td:first-child{
+  background-color: #5b421b;
+  color: #72b94f;
+}
+/*  12 Leaf🍃 */
+table tr[data-team="11"] td:first-child{
+  background-image: linear-gradient(to bottom, #48c93a, #43bb36, #3dad31, #389f2d, #339229);
+  color: #b2ec30;
+}
+/*  13 Autumn🍂 */
+table tr[data-team="12"] td:first-child{
+  background-image: linear-gradient(to bottom, #9d5e2e, #8e5529, #804c25, #724320, #643b1c);
+  color: #ec9015;
+}
+/*  14 Clover🍀 */
+table tr[data-team="13"] td:first-child{
+  background-image: linear-gradient(to bottom, #ffffff, #ececec, #d8d8d8, #c6c6c6, #b3b3b3);
+  color: #36a400;
+}
+/*  15 Pumpkin🎃 */
+table tr[data-team="14"] td:first-child{
+  background-image: linear-gradient(to top, #31294d, #2d2647, #292341, #26203c, #221d36);
+  color: #51ab2a;
+}
+/*  16 Honey🐝 */
+table tr[data-team="15"] td:first-child{
+  background-color: #000000;
+  color: #e2bf56;
+}
+/*  17 Pillar🐛 */
+table tr[data-team="16"] td:first-child{
+  background-color: #b33919;
+  color: #68bd4e;
+}
+/*  18 Lady🐞 */
+table tr[data-team="17"] td:first-child{
+  background-image: linear-gradient(to bottom, #992e2e, #8d2b2b, #822728, #762424, #6b2121);
+  color: #000000;
+}
+/*  19 Snail🐌 */
+table tr[data-team="18"] td:first-child{
+  background-image: linear-gradient(to bottom, #e69138, #d48633, #c37b2f, #b2702a, #a16526);
+  color: #ffe599;
+}
+/*  20 Penguin🐧 */
+table tr[data-team="19"] td:first-child{
+  background-image: linear-gradient(to bottom, #434343, #3a3a3a, #323232, #292929, #212121);
+  color: #ffffff;
+}
+/*  21 Cardinal🐦 */
+table tr[data-team="20"] td:first-child{
+  background-image: linear-gradient(to bottom, #d53030, #ca2d2d, #be2929, #b32626, #a82323);
+  color: #f1c232;
+}
+/*  22 Toad🐸 */
+table tr[data-team="21"] td:first-child{
+  background-image: linear-gradient(to bottom, #8ed544, #86ca41, #7fbe3d, #77b33a, #70a837);
+  color: #436ecc;
+}
+/*  23 Sheep🐑 */
+table tr[data-team="22"] td:first-child{
+  background-image: linear-gradient(to bottom, #ffffff, #ececec, #d8d8d8, #c6c6c6, #b3b3b3);
+  color: #434343;
+}
+/*  24 Tiger🐅 */
+table tr[data-team="23"] td:first-child{
+  background-image: linear-gradient(to bottom, #1b1b1b, #161616, #111111, #090909, #000000);
+  color: #ff9d00;
+}
+/*  25 Puffer🐡 */
+table tr[data-team="24"] td:first-child{
+  background-color: #073763;
+  color: #ffd966;
+}
+/*  26 Clown🐠 */
+table tr[data-team="25"] td:first-child{
+  background-image: linear-gradient(to bottom, #45818e, #407986, #3c727d, #376a75, #33636d);
+  color: #FFFFFF;
+}
+/*  27 Shell🐢 */
+table tr[data-team="26"] td:first-child{
+  background-color: #78cb3c;
+  color: #ffe599;
+}
+/*  28 Whale🐋 */
+table tr[data-team="27"] td:first-child{
+  background-image: linear-gradient(to bottom, #434343, #3b3b3b, #343434, #2c2c2c, #252525);
+  color: #54b8ff;
+}
+/*  29 Dolphin🐬 */
+table tr[data-team="28"] td:first-child{
+  background-color: #d9d9d9;
+  color: #999999;
+}
+/*  30 Dragon🐲 */
+table tr[data-team="29"] td:first-child{
+  background-color: #991010;
+  color: #e2bf56;
+}
